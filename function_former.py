@@ -14,7 +14,7 @@ try:
     with open('a_k.txt', 'r') as file:
         api_key = file.read()
 except:
-    api_key = input('Paste your OpenAI API key here: ')
+    api_key = input('sk-QsJl9BPTQeuvw20OlemZgavLXiWi2ksaf-5WFjH9yrT3BlbkFJ9ysLyBO5Z39H_o9ESlw8bZbOfZYQEgJh1PgZWtkCcA')
     with open('a_k.txt', 'w+') as file:
         file.write(api_key)
 headers = {
